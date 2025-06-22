@@ -1,0 +1,275 @@
+/* Viewports
+Desktop
+1600x992px)
+Laptop
+1280x802px 
+Tablet
+768x1024px
+Mobile
+320x480px */
+
+/* Default size 1440px */
+
+/* Desktop devices 1600px */
+
+@media screen and (max-width: 1600px) {}
+
+/* Laptop devices 1280px */
+
+@media screen and (max-width: 1280px) {
+    .active-button {
+        padding: 15px 20px;
+    }
+
+    .footer-content {
+        padding: 28px 130px;
+    }
+
+    .footer-content p {
+        font-size: 18px;
+    }
+
+    .footer-img {
+        column-gap: 28px;
+    }
+
+    .footer-img img {
+        width: 32px;
+    }
+}
+
+/* Big Tablet devices 1080px */
+@media screen and (max-width: 1080px) {
+
+    #hero,
+    #developer,
+    #target {
+        margin: 0 auto 50px auto;
+    }
+
+    #inspiration {
+        margin: 0 auto 50px auto;
+    }
+
+    .active-button {
+        padding: 10px 15px;
+        font-size: 12px;
+        border-radius: 6px;
+        box-shadow: 0 2px 3px rgb(0, 0, 0, .25);
+    }
+
+    .hero-content {
+        padding: 25px 40px;
+    }
+
+    .hero-content img {
+        height: 220px;
+        padding-bottom: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+        padding-bottom: 20px;
+        line-height: 48px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    .heading {
+        text-align: center;
+        margin: 0 auto 26px auto;
+        width: 70%;
+    }
+
+    .heading h1 {
+        font-size: 24px;
+        padding-bottom: 14px;
+    }
+
+    .heading p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .developer-discuss {
+        padding: 36px;
+    }
+
+    .discuss-content {
+        max-width: 52%;
+    }
+
+    .discuss-content h2 {
+        font-size: 18px;
+        padding-bottom: 15px;
+        line-height: 26px;
+    }
+
+    .discuss-content p {
+        font-size: 12px;
+        padding-bottom: 15px;
+        line-height: 26px;
+    }
+
+    .inspiration-video {
+        padding: 20px;
+    }
+
+    .skill {
+        padding: 28px;
+        text-align: center;
+    }
+
+    .skill img {
+        width: 42px;
+    }
+
+    .skill h2 {
+        font-size: 18px;
+        padding-bottom: 24px;
+        line-height: 26px;
+    }
+
+    .skill a {
+        font-size: 10px;
+    }
+
+    .footer-content {
+        padding: 20px 80px;
+    }
+
+    .footer-content p {
+        font-size: 14px;
+    }
+
+    .footer-img img {
+        width: 22px;
+    }
+}
+
+/* Small Tablet devices 768 */
+
+@media screen and (max-width: 768px) {
+
+    #hero,
+    #developer,
+    #target {
+        margin: 0 auto 20px auto;
+    }
+
+    #inspiration {
+        margin: 0 auto 20px auto;
+    }
+
+    .active-button {
+        padding: 8px 10px;
+        font-size: 10px;
+    }
+
+    .heading {
+        text-align: center;
+        margin: 0 auto 26px auto;
+        width: 82%;
+    }
+
+    .heading h1 {
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+
+    .heading p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .hero-content {
+        padding: 25px 40px;
+    }
+
+    .hero-content img {
+        height: 160px;
+        padding-bottom: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 24px;
+        padding-bottom: 12px;
+        line-height: 32px;
+    }
+
+    .hero-content p {
+        font-size: 12px;
+        padding-bottom: 12px;
+        line-height: 16px;
+    }
+
+    .developer-discuss {
+        padding: 20px;
+    }
+
+    .discuss-content {
+        max-width: 50%;
+    }
+
+    .discuss-content h2 {
+        font-size: 12px;
+        padding-bottom: 8px;
+        line-height: 16px;
+    }
+
+    .discuss-content p {
+        font-size: 10px;
+        padding-bottom: 10px;
+        line-height: 16px;
+    }
+
+    .inspiration-video {
+        padding: 10px;
+    }
+
+
+    .target-skill {
+        flex-direction: column;
+    }
+
+    .skill {
+        padding: 28px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .skill img {
+        width: 56px;
+    }
+
+    .skill h2 {
+        font-size: 18px;
+        padding: 14px 0 10px 0;
+        line-height: 0;
+    }
+
+    .skill a {
+        font-size: 10px;
+    }
+
+    .footer-content {
+        padding: 16px 26px;
+    }
+
+    .footer-img {
+        column-gap: 16px;
+    }
+
+    .footer-content p {
+        font-size: 10px;
+    }
+
+    .footer-img img {
+        width: 16px;
+    }
+}
+
+/* Mobile devices 480px */
